@@ -1,0 +1,11 @@
+CREATE DB = ci_import
+
+make table = 
+
+CREATE TABLE `siswa` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `nis` varchar(11) NOT NULL,
+  `nama` varchar(50) NOT NULL,
+  `jenis_kelamin` varchar(10) NOT NULL,
+  `alamat` text NOT NULL
+)
